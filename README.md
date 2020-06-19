@@ -9,9 +9,10 @@
 >实现我们小时候经常玩的贪吃蛇，对于蛇头蛇身，蛇尾的图片，我就谁便找了几个不同颜色的小球代替了，懒得找图片了:laughing:.把图片添加到Qt Resource File中，即.qrc文件。通过Qtimer创建定时器实现蛇固定频率的移动。keyPressEvent()方法实现按键控制蛇的移动。paintEvent()方法展现蛇的位置，使用这个方法时别忘了用update()，不然界面不会变化了。界面解决了，剩下的就是算法如何实现了，用vector存蛇的坐标，创建定时器建立与坐标变换的信号和槽函数。
 --------------
 #### 实现效果
-![贪吃蛇](https://github.com/Maserhe/MyeatSnack/blob/master/resourseFile/贪吃蛇.jpg)
-
+![QQ截图20200620040805](https://i.loli.net/2020/06/20/VR3BIkmhb1Sp8q9.png)
+>**蛇做的比较丑，别介意:smile:,大晚上的实在没有过多精力去找图片。蛇头，蛇身，蛇尾三个不同颜色的小球球表示。**
 --------------------
 #### 总结
->这个项目的实现，算法不难， 主要在于掌握Qt图形界面的使用。如过大家对qt图形界面感兴趣，这里有一些qt图形界面的教程 [百度网盘](https://pan.baidu.com/s/13f70OZvjtMxJddeDMUHcHQ"") 解压密码 **96yr**。
+
+>这个项目的实现，算法不难，主要在于掌握Qt图形界面的使用。如过大家对qt图形界面感兴趣，这里有一些qt图形界面的教程 [百度网盘](https://pan.baidu.com/s/13f70OZvjtMxJddeDMUHcHQ"") 解压密码 **96yr**，自学起来还不错，想要深入了解主要还是要多多查阅qt的帮助文档。
 
